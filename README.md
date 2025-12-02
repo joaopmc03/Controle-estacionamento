@@ -65,4 +65,4 @@ Recomendações rápidas para gerar evidências (prints/ddl gerado pelo banco):
 1. Subir o banco: `docker-compose up -d`
 2. Buildar e rodar a aplicação: `mvn clean package -DskipTests` e `java -jar target/garagem.jar`
 3. Capturar os logs do console (o Hibernate exibirá SQL devido a `spring.jpa.show-sql=true`).
-4. Para extrair o DDL gerado pelo Postgres: entrar no container e usar `pg_dump -s` (veja instruções no documento do professor).
+4. Para extrair o DDL gerado pelo Postgres: entrar no container e usar `pg_dump -s` 
